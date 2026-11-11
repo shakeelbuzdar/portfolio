@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio & Case Studies | Muhammad Shakeel – SEO & Google Business Profile Specialist</title><meta name="description" content="SEO case studies and projects by Muhammad Shakeel across Local SEO, Google Business Profile, technical SEO and link building.">
+<!-- Google Search Console verification: <meta name="google-site-verification" content="YOUR_CODE"> -->
+<meta property="og:type" content="website"><meta property="og:title" content="Portfolio & Case Studies | Muhammad Shakeel – SEO & Google Business Profile Specialist"><meta property="og:description" content="SEO case studies and projects by Muhammad Shakeel across Local SEO, Google Business Profile, technical SEO and link building."><meta property="og:image" content="assets/img/headshot.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css"></head>
+<body><div id="site-header"></div>
+<main>
+
+<section style="padding-bottom:90px"><div class="wrap"><h1>Case Studies</h1><p class="lead">Real projects and measured results. Entries below are placeholders until verified client work is added.</p>
+<div class="filters" id="filters" role="group" aria-label="Filter projects"></div><div class="grid" data-portfolio></div>
+<p id="lb-more" hidden style="margin-top:28px"><a class="btn ghost" href="link-building.html">See all Link Building projects (7)</a></p><div data-cta></div>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/config.js"></script><script src="data/services.js"></script><script src="data/projects.js"></script><script src="data/faq.js"></script><script src="assets/js/site.js"></script>
+<script>
+document.addEventListener("click",function(e){
+  var b=e.target.closest("#filters button,#filters a");
+  if(!b)return;
+  document.getElementById("lb-more").hidden=!b.textContent.trim().startsWith("Link Building");
+});
+</script>
+
+</body></html>
